@@ -1,0 +1,44 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+thead {
+    background-color: #4d82cb;
+    color: #ffffff;
+    text-align: left;
+}
+
+th, td {
+    overflow: hidden;
+    padding: 0.5rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+tr:hover {
+    cursor: pointer;
+}
+
+tr.selected {
+    background-color: #b6e3ff;
+}
+
+#txtURI {
+    width: 30%;
+}
